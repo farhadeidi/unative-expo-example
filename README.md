@@ -1,7 +1,8 @@
-
 # Unative Example Expo
 
 This project is a template for building React Native applications using the **Unative** UI library, **Expo**, and **Expo Router**. It provides a fully configured environment with tools like TypeScript, ESLint, Prettier, Jest, and Nativewind for styling.
+
+![Demo of Unative Example Expo](./screenshot.gif)
 
 ## Features
 
@@ -14,16 +15,19 @@ This project is a template for building React Native applications using the **Un
 ## Installation
 
 1. Clone the template using `degit`:
+
    ```
    npx degit farhadeidi/unative-expo-example my-app
    ```
 
 2. Navigate to your project directory:
+
    ```
    cd my-app
    ```
 
 3. Install dependencies using `pnpm` (or your preferred package manager):
+
    ```
    pnpm install
    ```
@@ -53,6 +57,7 @@ This project is a template for building React Native applications using the **Un
 ## Dependencies
 
 ### Main Dependencies
+
 - `expo` for React Native development.
 - `react` and `react-native` for building cross-platform applications.
 - `expo-router` for routing.
@@ -60,6 +65,7 @@ This project is a template for building React Native applications using the **Un
 - `unative` for cross-platform UI components.
 
 ### Dev Dependencies
+
 - `eslint` and `prettier` for linting and formatting.
 - `jest` and `jest-expo` for testing.
 - `typescript` for static typing.
@@ -67,9 +73,11 @@ This project is a template for building React Native applications using the **Un
 ## Customization
 
 ### Tailwind CSS
+
 Tailwind CSS is configured via `nativewind`. You can update the configuration in the `tailwind.config.js` file.
 
 ### ESLint and Prettier
+
 The project includes a pre-configured `.eslintrc` and `.prettierrc`. Adjust rules as needed for your coding standards.
 
 ## License
